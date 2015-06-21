@@ -14,6 +14,7 @@
 
 @import "bootstrap-sprockets";
 @import "bootstrap";
+@import "normalize";
 
 /* General */
 
@@ -27,10 +28,31 @@ header {
 	text-align: center;
 }
 
-footer {
-	text-align: center;
+
+#availability ul{
+	margin-left: -8%;
 }
 
-#availability {
+
+#facilcorp {
+	background: #0084b4;
+	padding: 0% 0 0% 0;
+
+	h1 {
+		margin-left: 22%;
+		padding-bottom: 2%; 
+	}
+	
+}
+
+#circle img {
+	display: block;
+	margin-left: auto;
+    margin-right: auto
+}
+
+
+footer {
+	padding-top: 10%;
 	text-align: center;
 }
