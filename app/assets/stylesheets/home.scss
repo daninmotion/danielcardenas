@@ -1,0 +1,185 @@
+// Place all the styles related to the home controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+/***nav***/
+
+.header {
+  padding: 80px 0;
+}
+
+.navbar {
+    border-radius: 0px;
+}
+
+.navbar .navbar-brand {
+  color: #ecf0f1;
+  font-size: 2.5em;
+  font-weight: 900;
+}
+
+.navbar .navbar-brand:hover {
+  color: #ff4b21;
+}
+
+.navbar-inverse .navbar-nav>li>a {
+  color: #ecf0f1;
+  font-size: 1.5em;
+}
+
+.navbar-inverse .navbar-nav:hover>li>a {
+  color: #ff4b21;
+  font-size: 1.5em;
+}
+
+
+/***Header***/
+
+.header {
+  padding: 5px 0 200px 0;
+}
+
+.title {
+  font-size: 5em;
+}
+
+.skills {
+  font-size: 2.75em;
+}
+
+.icon {
+  font-size: 30px;
+  margin-top: 20px;
+  display: block;
+}
+
+.icon a {
+  color: black;
+}
+
+.icon a:hover {
+  color: #ff4b21;
+}
+/***My Work***/
+
+.my-work {
+  background: #ecf0f1;
+  padding: 50px 0;
+}
+
+
+.portfolio-item img {
+  margin: 20px 0;
+  opacity: 1;
+  transition: all .3s;
+}
+
+.portfolio-item img:hover {
+  margin: 5px 0;
+  opacity: .7;
+}
+
+.margin {
+  margin: 30px 0;
+}
+
+/***Contact***/
+
+.contact {
+  background: black;
+}
+
+.contact h1 {
+  color: white;
+}
+
+.contact h3 {
+  color: white;
+}
+
+/***Social***/
+
+.btn-social {
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  font-size: 35px;
+  font-weight: 900;
+  color: white;
+  text-align: center;
+}
+
+/*===Media Queries===*/
+
+/***iPads***/
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+  
+  /***Header***/
+
+  .header {
+    padding: 5px 0 130px 0;
+  }
+
+  .fa-5x {
+    font-size: 4.5em;
+  }
+
+  #image_row {
+    margin-left: 150px;
+  }
+
+  /***Contact***/
+  .contact {
+    padding: 5px 0;
+  }
+}
+
+/***iPhone(small screen)**/
+@media only screen and (min-width: 320px) and (max-width: 767px) {
+  .margin.mobile_only {
+    display: none;
+  }
+
+  /***Header***/
+  .header {
+    padding: 1px 0 200px 0;
+  }
+
+  .skills {
+    font-size: 2.4em;
+  }
+
+  /***My Work***/
+
+  .header {
+    padding: 1px 0 60px 0;
+  }
+
+  .icon {
+    display: none;
+  }
+
+  /***Contact***/
+  .contact {
+    padding: 20px 0;
+  }
+
+  .contact h1 {
+    color: white;
+    font-size: 4em;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

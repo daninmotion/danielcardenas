@@ -15,6 +15,7 @@
 @import "bootstrap-sprockets";
 @import "bootstrap";
 @import "normalize";
+@import "home.scss";
 
 /* General */
 
@@ -22,7 +23,13 @@ html, body {
 	font-family: 'Raleway', sans-serif;
 }
 
-header {
+#circle img {
+	display: block;
+	margin-left: auto;
+    margin-right: auto
+}
+
+/*header {
 	margin: 0 auto;
 	padding-top: 5%;
 	text-align: center;
@@ -34,14 +41,8 @@ header {
 }
 
 
-#circle img {
-	display: block;
-	margin-left: auto;
-    margin-right: auto
-}
-
-
 footer {
 	padding-top: 10%;
 	text-align: center;
 }
+*/
